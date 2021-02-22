@@ -9,4 +9,7 @@ class Book extends Model {
     
 	// protected $collection = 'books';
     // protected $guarded = [];  
+
+
+
 }
