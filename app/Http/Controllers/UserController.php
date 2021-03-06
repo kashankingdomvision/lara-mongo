@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\User;
 use App\Book;
+use App\Wine;
 use Maklad\Permission\Models\Role;
 use Maklad\Permission\Models\Permission;
 
@@ -14,7 +15,8 @@ class UserController extends Controller
         // dd("user here");
 
 
-        $user = Book::all();
+        // $user = Book::all();
+        $user = Wine::all();
         dd($user);
 
         // $user = new User;
